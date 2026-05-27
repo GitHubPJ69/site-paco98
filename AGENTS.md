@@ -95,7 +95,7 @@ site_web_nico/
 
 ## À faire / en attente
 
-- [ ] URL repo GitHub à renseigner ici une fois créé
+- [x] Repo GitHub : https://github.com/GitHubPJ69/site-paco98
 - [ ] Configurer Behold.so et remplacer le placeholder Instagram
 - [ ] Ajouter une vraie photo de Paco dans la section À Propos (remplacer le SVG placeholder)
 - [ ] Déployer sur Infomaniak
