@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PACO_98 — RAP · ATELIERS · ÉVÈNEMENTIEL</title>
+  <meta name="description" content="Paco_98, artiste rap lyonnais du collectif TKND. Concerts, ateliers d'écriture, évènementiel." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#hero" class="nav__logo">PACO_98</a>
+      <ul class="nav__menu" id="navMenu">
+        <li><a href="#about" class="nav__link">À Propos</a></li>
+        <li><a href="#music" class="nav__link">Musique</a></li>
+        <li><a href="#events" class="nav__link">Événements</a></li>
+        <li><a href="#ateliers" class="nav__link">Ateliers</a></li>
+        <li><a href="#contact" class="nav__link nav__link--cta">Contact</a></li>
+      </ul>
+      <button class="nav__burger" id="burger" aria-label="Menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="hero">
+      <div class="hero__bg"></div>
+      <div class="hero__content container">
+        <p class="hero__label">Collectif TKND · Lyon</p>
+        <h1 class="hero__title">PACO_98</h1>
+        <p class="hero__sub">RAP · ATELIERS D'ÉCRITURE · ÉVÈNEMENTIEL</p>
+        <p class="hero__desc">Artiste rap lyonnais produit par le collectif TKND.<br>La musique comme outil de libération de la parole.</p>
+        <div class="hero__socials">
+          <a href="https://www.instagram.com/paco_98_/" class="social-link" aria-label="Instagram" title="Instagram" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+          </a>
+          <a href="https://open.spotify.com/artist/3wsjrXnaGevtYHtap2lctk" class="social-link" aria-label="Spotify" title="Spotify" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm4.586 14.424a.622.622 0 01-.857.207c-2.348-1.435-5.304-1.76-8.785-.964a.622.622 0 01-.277-1.215c3.809-.87 7.076-.496 9.712 1.115a.622.622 0 01.207.857zm1.223-2.722a.779.779 0 01-1.072.256c-2.687-1.652-6.785-2.131-9.965-1.166a.779.779 0 01-.973-.519.779.779 0 01.519-.972c3.632-1.102 8.147-.568 11.235 1.329a.779.779 0 01.256 1.072zm.105-2.835C14.692 8.95 9.375 8.775 6.297 9.71a.935.935 0 11-.543-1.79c3.533-1.072 9.404-.865 13.115 1.338a.935.935 0 01-.955 1.609z"/></svg>
+          </a>
+          <a href="https://www.deezer.com/fr/artist/188001047" class="social-link" aria-label="Deezer" title="Deezer" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.81 10.257h3.168v1.485H18.81zm0 2.223h3.168v1.485H18.81zm0 2.222h3.168v1.485H18.81zm0-6.667h3.168v1.485H18.81zm-4.428 8.89h3.168v1.485h-3.168zm0-2.223h3.168v1.485h-3.168zm0-2.222h3.168v1.485h-3.168zm0-2.223h3.168v1.485h-3.168zm0-2.222h3.168v1.485h-3.168zm-4.429 8.89h3.168v1.485H9.954zm0-2.223h3.168v1.485H9.954zm0-2.222h3.168v1.485H9.954zm0-2.223h3.168v1.485H9.954zm-4.428 6.668h3.168v1.485H5.526zm0-2.223h3.168v1.485H5.526zm-3.504 2.223H5.19v1.485H2.022zm0-2.223H5.19v1.485H2.022z"/></svg>
+          </a>
+          <a href="https://soundcloud.com/nicolas-martin-395728650/prof-re-fe-rent" class="social-link" aria-label="SoundCloud" title="SoundCloud" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M1.175 12.225c-.015.13-.025.26-.025.39 0 1.77 1.44 3.21 3.21 3.21.13 0 .26-.01.385-.025H19.8c1.215 0 2.2-.985 2.2-2.2 0-1.11-.825-2.025-1.905-2.18.03-.185.045-.375.045-.57C20.14 8.4 17.74 6 14.79 6c-1.86 0-3.505.915-4.52 2.315C9.775 7.58 8.95 7.14 8.02 7.14c-1.77 0-3.21 1.44-3.21 3.21 0 .175.015.35.04.52C3.22 11.15 2.01 12.545 1.175 12.225z"/></svg>
+          </a>
+          <a href="https://www.youtube.com/channel/UCdO8j2PFrubkBNB-XV-fJzA" class="social-link" aria-label="YouTube" title="YouTube" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+          </a>
+          <a href="https://www.linkedin.com/in/nicolas-paco-martin/" class="social-link" aria-label="LinkedIn" title="LinkedIn" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          </a>
+        </div>
+        <a href="#music" class="btn btn--primary">Écouter la musique</a>
+      </div>
+      <div class="hero__scroll">
+        <span></span>
+      </div>
+    </section>
+
+    <!-- ===== À PROPOS ===== -->
+    <section class="section about" id="about">
+      <div class="container">
+        <div class="about__grid">
+          <div class="about__text fade-in">
+            <span class="section__label">À Propos</span>
+            <h2 class="section__title">Le Collectif TKND</h2>
+            <p>TKND, c'est avant tout l'histoire de trois amis d'enfance lyonnais qui ont trouvé dans la musique un terrain d'expression, d'expériences partagées et de souvenirs inoubliables.</p>
+            <p>Paco_98 est l'un de ses artistes, rappeur engagé qui porte la voix du collectif sur scène comme dans les salles de classe.</p>
+            <blockquote class="about__quote">
+              "La musique est un outil puissant pour libérer la parole, développer la confiance en soi et créer du lien."
+            </blockquote>
+            <div class="about__tags">
+              <span class="tag">Concerts &amp; Scènes</span>
+              <span class="tag">Ateliers d'écriture</span>
+              <span class="tag">Évènementiel</span>
+              <span class="tag">Lyon</span>
+            </div>
+          </div>
+          <div class="about__visual fade-in">
+            <div class="about__img-placeholder">
+              <svg viewBox="0 0 200 240" xmlns="http://www.w3.org/2000/svg">
+                <rect width="200" height="240" fill="#1a1a1a" rx="4"/>
+                <circle cx="100" cy="90" r="40" fill="#2a2a2a"/>
+                <path d="M30 200 Q100 160 170 200 L170 240 L30 240 Z" fill="#2a2a2a"/>
+                <text x="100" y="94" text-anchor="middle" fill="#e85d04" font-size="32" font-family="sans-serif">🎤</text>
+                <text x="100" y="230" text-anchor="middle" fill="#555" font-size="11" font-family="sans-serif">Ajouter une photo</text>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== MUSIQUE ===== -->
+    <section class="section music" id="music">
+      <div class="container">
+        <span class="section__label">Discographie</span>
+        <h2 class="section__title">Musique</h2>
+        <div class="music__player fade-in">
+          <iframe
+            src="https://open.spotify.com/embed/artist/3wsjrXnaGevtYHtap2lctk?utm_source=generator&theme=0"
+            width="100%"
+            height="352"
+            frameborder="0"
+            allowfullscreen
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            loading="lazy"
+          ></iframe>
+        </div>
+        <div class="music__links fade-in">
+          <a href="https://www.deezer.com/fr/artist/188001047" class="music__platform-link" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M18.81 10.257h3.168v1.485H18.81zm0 2.223h3.168v1.485H18.81zm0 2.222h3.168v1.485H18.81zm0-6.667h3.168v1.485H18.81zm-4.428 8.89h3.168v1.485h-3.168zm0-2.223h3.168v1.485h-3.168zm0-2.222h3.168v1.485h-3.168zm0-2.223h3.168v1.485h-3.168zm0-2.222h3.168v1.485h-3.168zm-4.429 8.89h3.168v1.485H9.954zm0-2.223h3.168v1.485H9.954zm0-2.222h3.168v1.485H9.954zm0-2.223h3.168v1.485H9.954zm-4.428 6.668h3.168v1.485H5.526zm0-2.223h3.168v1.485H5.526zm-3.504 2.223H5.19v1.485H2.022zm0-2.223H5.19v1.485H2.022z"/></svg>
+            Deezer
+          </a>
+          <a href="https://soundcloud.com/nicolas-martin-395728650/prof-re-fe-rent" class="music__platform-link" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M1.175 12.225c-.015.13-.025.26-.025.39 0 1.77 1.44 3.21 3.21 3.21.13 0 .26-.01.385-.025H19.8c1.215 0 2.2-.985 2.2-2.2 0-1.11-.825-2.025-1.905-2.18.03-.185.045-.375.045-.57C20.14 8.4 17.74 6 14.79 6c-1.86 0-3.505.915-4.52 2.315C9.775 7.58 8.95 7.14 8.02 7.14c-1.77 0-3.21 1.44-3.21 3.21 0 .175.015.35.04.52C3.22 11.15 2.01 12.545 1.175 12.225z"/></svg>
+            SoundCloud
+          </a>
+          <a href="https://www.youtube.com/channel/UCdO8j2PFrubkBNB-XV-fJzA" class="music__platform-link" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+            YouTube
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ÉVÉNEMENTS ===== -->
+    <section class="section events" id="events">
+      <div class="container">
+        <span class="section__label">Agenda</span>
+        <h2 class="section__title">Prochains Événements</h2>
+        <div class="events__grid fade-in">
+
+          <article class="event-card">
+            <div class="event-card__date">
+              <span class="event-card__day">--</span>
+              <span class="event-card__month">À venir</span>
+            </div>
+            <div class="event-card__info">
+              <h3 class="event-card__title">100% Rap Lyonnais</h3>
+              <p class="event-card__venue">La Pente · Lyon 69001</p>
+              <p class="event-card__desc">Scène underground 100% rap local. Rappeurs lyonnais à l'honneur.</p>
+            </div>
+            <div class="event-card__status event-card__status--soon">Bientôt</div>
+          </article>
+
+          <div class="events__empty fade-in">
+            <p>Restez connectés sur Instagram pour les prochaines dates.</p>
+            <div class="hero__socials" style="justify-content: flex-start; margin-top: 1rem;">
+              <a href="https://www.instagram.com/paco_98_/" class="social-link" aria-label="Instagram" target="_blank" rel="noopener">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ATELIERS ===== -->
+    <section class="section ateliers" id="ateliers">
+      <div class="container">
+        <span class="section__label">Éducation &amp; Création</span>
+        <h2 class="section__title">Ateliers d'Écriture</h2>
+        <p class="section__intro fade-in">Le collectif TKND intervient dans les écoles et collèges pour animer des ateliers d'écriture rap — un outil pédagogique pour développer l'expression orale, la confiance en soi et la créativité.</p>
+        <div class="ateliers__grid">
+          <div class="atelier-card fade-in">
+            <div class="atelier-card__icon">✏️</div>
+            <h3>Ateliers d'écriture</h3>
+            <p>Initiation à l'écriture de textes rap. Travail sur les rimes, le flow, les messages.</p>
+          </div>
+          <div class="atelier-card fade-in">
+            <div class="atelier-card__icon">🎤</div>
+            <h3>Expression orale</h3>
+            <p>Mise en voix, prise de parole, confiance en soi à travers le rap.</p>
+          </div>
+          <div class="atelier-card fade-in">
+            <div class="atelier-card__icon">🎬</div>
+            <h3>Projets collectifs</h3>
+            <p>Création de clips, performances, projets musicaux avec les élèves.</p>
+          </div>
+        </div>
+        <div class="ateliers__refs fade-in">
+          <h3>Interventions réalisées</h3>
+          <ul class="refs__list">
+            <li>
+              <span class="ref__dot"></span>
+              <div>
+                <strong>Collège la Xavière</strong>
+                <span>Chaponnay 69970 — Atelier écriture rap, élèves de 5ème</span>
+              </div>
+            </li>
+            <li>
+              <span class="ref__dot"></span>
+              <div>
+                <strong>École primaire New-School</strong>
+                <span>69 Av. Jean Mermoz, 69008 Lyon</span>
+              </div>
+            </li>
+            <li>
+              <span class="ref__dot"></span>
+              <div>
+                <strong>Clip RAP — Collège Marcel-Pagnol</strong>
+                <span>Oullins-Pierre-Bénite 69149 · Projet pHARe · Concours Non Au Harcèlement · <em>Lauréat départemental</em></span>
+              </div>
+            </li>
+            <li>
+              <span class="ref__dot"></span>
+              <div>
+                <strong>Festival du Conte de l'Ilose</strong>
+                <span>Création musicale collective · Parc de Miribel</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== INSTAGRAM ===== -->
+    <section class="section instagram" id="instagram">
+      <div class="container">
+        <span class="section__label">Réseaux</span>
+        <h2 class="section__title">Instagram</h2>
+        <!-- WIDGET BEHOLD.SO — Instructions :
+          1. Créer un compte gratuit sur https://behold.so
+          2. Connecter le compte Instagram @paco_98_
+          3. Copier le script embed fourni par Behold et remplacer le bloc ci-dessous
+        -->
+        <div class="instagram__placeholder fade-in">
+          <div class="instagram__placeholder-inner">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="48" height="48"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none"/></svg>
+            <h3>@paco_98_</h3>
+            <p>Pour afficher automatiquement les posts Instagram :</p>
+            <ol>
+              <li>Créer un compte sur <strong>behold.so</strong> (gratuit)</li>
+              <li>Connecter le compte <strong>@paco_98_</strong></li>
+              <li>Coller le code embed ici</li>
+            </ol>
+            <a href="https://behold.so" class="btn btn--outline" target="_blank" rel="noopener">Configurer Behold.so →</a>
+          </div>
+        </div>
+        <!-- Remplacer le bloc ci-dessus par le script Behold une fois configuré -->
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section class="section contact" id="contact">
+      <div class="container">
+        <span class="section__label">Travaillons ensemble</span>
+        <h2 class="section__title">Contact</h2>
+        <div class="contact__grid">
+          <div class="contact__info fade-in">
+            <p>Pour toute demande de concert, atelier d'écriture, collaboration ou évènementiel, utilisez le formulaire ou écrivez directement.</p>
+            <div class="contact__links">
+              <a href="mailto:pierrejean.remy.martin@gmail.com" class="contact__email">pierrejean.remy.martin@gmail.com</a>
+            </div>
+            <div class="contact__socials">
+              <a href="https://www.instagram.com/paco_98_/" class="social-link" aria-label="Instagram" target="_blank" rel="noopener">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+              </a>
+              <a href="https://open.spotify.com/artist/3wsjrXnaGevtYHtap2lctk" class="social-link" aria-label="Spotify" target="_blank" rel="noopener">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm4.586 14.424a.622.622 0 01-.857.207c-2.348-1.435-5.304-1.76-8.785-.964a.622.622 0 01-.277-1.215c3.809-.87 7.076-.496 9.712 1.115a.622.622 0 01.207.857zm1.223-2.722a.779.779 0 01-1.072.256c-2.687-1.652-6.785-2.131-9.965-1.166a.779.779 0 01-.973-.519.779.779 0 01.519-.972c3.632-1.102 8.147-.568 11.235 1.329a.779.779 0 01.256 1.072zm.105-2.835C14.692 8.95 9.375 8.775 6.297 9.71a.935.935 0 11-.543-1.79c3.533-1.072 9.404-.865 13.115 1.338a.935.935 0 01-.955 1.609z"/></svg>
+              </a>
+              <a href="https://www.youtube.com/channel/UCdO8j2PFrubkBNB-XV-fJzA" class="social-link" aria-label="YouTube" target="_blank" rel="noopener">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+              </a>
+              <a href="https://www.linkedin.com/in/nicolas-paco-martin/" class="social-link" aria-label="LinkedIn" target="_blank" rel="noopener">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- FORMULAIRE FORMSPREE — Instructions :
+            1. Créer un compte gratuit sur formspree.io
+            2. Créer un nouveau formulaire → copier l'URL action (ex: https://formspree.io/f/XXXXX)
+            3. Remplacer action="#" ci-dessous par cette URL
+          -->
+          <form class="contact__form fade-in" action="https://formspree.io/f/xredrlby" method="POST" id="contactForm">
+            <div class="form__row">
+              <div class="form__group">
+                <label for="firstName">Prénom</label>
+                <input type="text" id="firstName" name="firstName" placeholder="Ton prénom" required />
+              </div>
+              <div class="form__group">
+                <label for="lastName">Nom</label>
+                <input type="text" id="lastName" name="lastName" placeholder="Ton nom" required />
+              </div>
+            </div>
+            <div class="form__group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="ton@email.com" required />
+            </div>
+            <div class="form__group">
+              <label for="subject">Sujet</label>
+              <select id="subject" name="subject">
+                <option value="">Sélectionner un sujet</option>
+                <option value="concert">Concert / Scène</option>
+                <option value="atelier">Atelier d'écriture</option>
+                <option value="evenement">Évènementiel</option>
+                <option value="collaboration">Collaboration</option>
+                <option value="autre">Autre</option>
+              </select>
+            </div>
+            <div class="form__group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Ton message..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn--primary btn--full">Envoyer le message</button>
+            <p class="form__note" id="formNote"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <span class="footer__logo">PACO_98</span>
+        <p class="footer__tagline">Artiste rap lyonnais · Collectif TKND</p>
+        <div class="hero__socials" style="justify-content: center;">
+          <a href="https://www.instagram.com/paco_98_/" class="social-link" aria-label="Instagram" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+          </a>
+          <a href="https://open.spotify.com/artist/3wsjrXnaGevtYHtap2lctk" class="social-link" aria-label="Spotify" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm4.586 14.424a.622.622 0 01-.857.207c-2.348-1.435-5.304-1.76-8.785-.964a.622.622 0 01-.277-1.215c3.809-.87 7.076-.496 9.712 1.115a.622.622 0 01.207.857zm1.223-2.722a.779.779 0 01-1.072.256c-2.687-1.652-6.785-2.131-9.965-1.166a.779.779 0 01-.973-.519.779.779 0 01.519-.972c3.632-1.102 8.147-.568 11.235 1.329a.779.779 0 01.256 1.072zm.105-2.835C14.692 8.95 9.375 8.775 6.297 9.71a.935.935 0 11-.543-1.79c3.533-1.072 9.404-.865 13.115 1.338a.935.935 0 01-.955 1.609z"/></svg>
+          </a>
+          <a href="https://www.deezer.com/fr/artist/188001047" class="social-link" aria-label="Deezer" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.81 10.257h3.168v1.485H18.81zm0 2.223h3.168v1.485H18.81zm0 2.222h3.168v1.485H18.81zm0-6.667h3.168v1.485H18.81zm-4.428 8.89h3.168v1.485h-3.168zm0-2.223h3.168v1.485h-3.168zm0-2.222h3.168v1.485h-3.168zm0-2.223h3.168v1.485h-3.168zm0-2.222h3.168v1.485h-3.168zm-4.429 8.89h3.168v1.485H9.954zm0-2.223h3.168v1.485H9.954zm0-2.222h3.168v1.485H9.954zm0-2.223h3.168v1.485H9.954zm-4.428 6.668h3.168v1.485H5.526zm0-2.223h3.168v1.485H5.526zm-3.504 2.223H5.19v1.485H2.022zm0-2.223H5.19v1.485H2.022z"/></svg>
+          </a>
+          <a href="https://soundcloud.com/nicolas-martin-395728650/prof-re-fe-rent" class="social-link" aria-label="SoundCloud" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M1.175 12.225c-.015.13-.025.26-.025.39 0 1.77 1.44 3.21 3.21 3.21.13 0 .26-.01.385-.025H19.8c1.215 0 2.2-.985 2.2-2.2 0-1.11-.825-2.025-1.905-2.18.03-.185.045-.375.045-.57C20.14 8.4 17.74 6 14.79 6c-1.86 0-3.505.915-4.52 2.315C9.775 7.58 8.95 7.14 8.02 7.14c-1.77 0-3.21 1.44-3.21 3.21 0 .175.015.35.04.52C3.22 11.15 2.01 12.545 1.175 12.225z"/></svg>
+          </a>
+          <a href="https://www.youtube.com/channel/UCdO8j2PFrubkBNB-XV-fJzA" class="social-link" aria-label="YouTube" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+          </a>
+          <a href="https://www.linkedin.com/in/nicolas-paco-martin/" class="social-link" aria-label="LinkedIn" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2026 PACO_98 · Collectif TKND · Lyon</p>
+        <nav class="footer__nav">
+          <a href="#">Mentions légales</a>
+          <a href="#">Politique de confidentialité</a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
