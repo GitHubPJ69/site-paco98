@@ -1,5 +1,12 @@
 # Infos projet — Site Paco_98
 
+## Workflow GitHub
+
+- **Nouvelle tâche** → créer une Issue GitHub d'abord
+- **Développement** → travailler sur une branche dédiée (jamais directement sur `main`)
+- **Livraison** → ouvrir une Pull Request, vérifier, puis merger
+- **Jamais** de `git push` direct sur `main` pour du nouveau code
+
 ## Les personnes
 
 **PJ (Pierre-Jean)** — le dev du projet
