@@ -103,7 +103,7 @@ site_web_nico/
 ## À faire / en attente
 
 - [x] Repo GitHub : https://github.com/GitHubPJ69/site-paco98
-- [ ] Configurer Behold.so et remplacer le placeholder Instagram
-- [ ] Ajouter une vraie photo de Paco dans la section À Propos (remplacer le SVG placeholder)
-- [ ] Déployer sur Infomaniak
-- [ ] Mettre à jour l'email contact@tknd.fr quand disponible (actuellement pierrejean.remy.martin@gmail.com)
+- [ ] [#2](https://github.com/GitHubPJ69/site-paco98/issues/2) — Ajouter la photo de Paco (section À Propos)
+- [ ] [#3](https://github.com/GitHubPJ69/site-paco98/issues/3) — Configurer le feed Instagram (Behold.so)
+- [ ] [#4](https://github.com/GitHubPJ69/site-paco98/issues/4) — Déployer sur Infomaniak
+- [ ] [#5](https://github.com/GitHubPJ69/site-paco98/issues/5) — Remplacer l'email de contact placeholder
