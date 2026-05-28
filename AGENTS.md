@@ -7,6 +7,21 @@
 - **Livraison** → ouvrir une Pull Request, vérifier, puis merger
 - **Jamais** de `git push` direct sur `main` pour du nouveau code
 
+### Convention de nommage des PRs et des branches
+
+| Préfixe | Quand l'utiliser |
+|---|---|
+| `feat:` | Nouvelle fonctionnalité ou nouvelle section |
+| `fix:` | Correction d'un bug ou d'un problème visible |
+| `content:` | Texte, images, traductions |
+| `style:` | CSS / design sans impact sur la logique |
+| `chore:` | Maintenance : renommage, réorganisation, compression |
+| `docs:` | Mise à jour de la documentation (AGENTS.md, README…) |
+
+Exemple : `feat: ajouter la section Instagram (issue #3)`
+
+La branche suit le même préfixe : `feat/issue-<n>-<slug>`, `fix/issue-<n>-<slug>`, etc.
+
 ## Les personnes
 
 **PJ (Pierre-Jean)** — le dev du projet
