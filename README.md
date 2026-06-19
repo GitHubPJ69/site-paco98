@@ -2,7 +2,7 @@
 
 Site one-page pour Paco_98, artiste rap lyonnais du collectif TKND.
 
-**Live :** *(à renseigner après déploiement Infomaniak)*
+**Live :** https://paco98.pierre-jean-martin.ch *(après déploiement)*
 
 ---
 
@@ -31,7 +31,11 @@ Double-cliquer sur `index.html` — aucun serveur requis.
 
 ## Déployer
 
-Upload du contenu via FTP dans le dossier `web/` sur Infomaniak.
+Le site est servi par un conteneur **nginx** (`Dockerfile`) derrière le reverse-proxy
+**Caddy** du VPS Infomaniak, à `https://paco98.pierre-jean-martin.ch`. Caddy gère le
+hostname public et le HTTPS ; la config de déploiement (compose, routing Caddy) vit
+dans le repo infra `/opt/infra`, séparé de ce repo. Ici, on ne touche qu'au site et à
+son image.
 
 ## Contribuer
 

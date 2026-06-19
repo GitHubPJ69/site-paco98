@@ -1,0 +1,10 @@
+# Ne garder dans l'image que le site statique (index.html, css/, js/, assets/).
+# Tout le reste — historique git, documentation, métadonnées — ne doit jamais
+# être servi via le web. C'est la raison d'être de l'image (vs bind-mount du checkout).
+.git
+.github
+*.md
+.gitignore
+.gitattributes
+Dockerfile
+.dockerignore

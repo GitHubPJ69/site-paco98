@@ -75,8 +75,8 @@ La branche suit le même préfixe : `feat/issue-<n>-<slug>`, `fix/issue-<n>-<slu
 
 - HTML + CSS + JS vanilla (aucune dépendance)
 - Google Fonts : Bebas Neue (titres) + Inter (corps)
-- Hébergement prévu : Infomaniak (FTP vers dossier `web/`)
-- Repo Git : à configurer sur GitHub
+- Déploiement : conteneur **nginx** (Docker) servi derrière **Caddy** sur le VPS Infomaniak → `https://paco98.pierre-jean-martin.ch`. Le hostname public est mappé uniquement dans le Caddyfile (repo infra séparé, hors de ce repo) ; rien de spécifique au domaine ici.
+- Repo Git : https://github.com/GitHubPJ69/site-paco98
 
 ---
 
@@ -88,6 +88,8 @@ site_web_nico/
 ├── css/style.css    — dark theme, responsive mobile-first
 ├── js/main.js       — burger menu, scroll animations, formulaire AJAX
 ├── assets/          — dossier pour les photos (vide pour l'instant)
+├── Dockerfile       — image nginx servant le site (déploiement derrière Caddy)
+├── .dockerignore    — exclut .git, docs et métadonnées de l'image
 ├── CLAUDE.md        — point d'entrée pour Claude
 └── agents.md        — ce fichier
 ```
@@ -120,5 +122,5 @@ site_web_nico/
 - [x] Repo GitHub : https://github.com/GitHubPJ69/site-paco98
 - [ ] [#2](https://github.com/GitHubPJ69/site-paco98/issues/2) — Ajouter la photo de Paco (section À Propos)
 - [ ] [#3](https://github.com/GitHubPJ69/site-paco98/issues/3) — Configurer le feed Instagram (Behold.so)
-- [ ] [#4](https://github.com/GitHubPJ69/site-paco98/issues/4) — Déployer sur Infomaniak
+- [ ] [#4](https://github.com/GitHubPJ69/site-paco98/issues/4) — Déployer sur le VPS Infomaniak (conteneur nginx + Caddy — conteneurisation : [#12](https://github.com/GitHubPJ69/site-paco98/issues/12))
 - [ ] [#5](https://github.com/GitHubPJ69/site-paco98/issues/5) — Remplacer l'email de contact placeholder
