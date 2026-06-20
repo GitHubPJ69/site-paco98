@@ -83,7 +83,7 @@ La branche suit le même préfixe : `feat/issue-<n>-<slug>`, `fix/issue-<n>-<slu
 ## Structure des fichiers
 
 ```
-site_web_nico/
+site-paco98/
 ├── index.html       — page unique complète (8 sections)
 ├── css/style.css    — dark theme, responsive mobile-first
 ├── js/main.js       — burger menu, scroll animations, formulaire AJAX
